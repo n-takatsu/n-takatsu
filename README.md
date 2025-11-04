@@ -1,80 +1,87 @@
-<h1 align="center">Hi, I'm Noriyuki Takatsu 👋</h1>
-<p align="center">
-  🧠 CAD/CAM Kernel Architect | 🦀 Rust Enthusiast | 🇯🇵 Tokyo, Japan<br>
-  Leading development of RedRing2020 — a future-proof CAD/CAM kernel in Rust.
-</p>
+# Hi, I'm Noriyuki Takatsu 👋
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Explicit+Geometry.+Modular+Architecture.;STEP+Compliant+CAD+Kernel+in+Rust;Safe+Modeling+for+the+Future" />
-</p>
+🤖 **MCP Server Architect** | 🧠 CAD/CAM Kernel Developer | 🦀 Rust Enthusiast | 🇯🇵 Tokyo, Japan
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" title="IDE: Visual Studio" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" title="Legacy Kernel Integration" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" title="High-performance Geometry" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" title="Safe CAD Kernel Architecture" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="Cross-platform Tools" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="Web-based Visualization" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" title="Data Storage & Interop" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" title="Windows Integration" width="40" />
-</p>
+Currently leading **mcp-rs** (production MCP server) and **RedRing2020** (CAD/CAM kernel) — building the future of AI-service integration and precision geometry.
 
----
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=AI+Agent+Integration.+Enterprise+WordPress.+Production+MCP+Server.+Precision+Geometry.+Modular+Architecture.+Memory+Safety.)
+
+[![IDE: Visual Studio](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg)](https://visualstudio.microsoft.com/) [![Legacy Kernel Integration](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg)](https://isocpp.org/) [![Core Development](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg)](https://www.rust-lang.org/)
+
+### 🚀 Current Development
+
+**mcp-rs v0.1.0-alpha** — Production-ready Model Context Protocol server
+
+**🎯 Recent Achievements:**
+• ✅ **27 WordPress Tools**: Complete REST API integration with enterprise features
+• ✅ **6-Layer Security**: SQL injection protection, XSS prevention, audit logging  
+• ✅ **205+ Tests**: Zero warnings, 100% pass rate, production quality
+• ✅ **Alpha in Production**: Already handling real workloads with enterprise clients
+
+**🔧 Tech Stack:** Rust | Tokio | JSON-RPC | WordPress API | Enterprise Security
+
+**🎯 Why MCP + Rust?** Bridging AI agents with services through memory-safe, high-performance protocols.
+
+[🔗 View mcp-rs Project](https://github.com/n-takatsu/mcp-rs)
 
 ### 🔧 Technical Focus
 
-RedRing2020 is my primary development project — a Rust-based CAD/CAM kernel designed for precision geometry and scalable architecture.
+**Current:** Building production-ready **mcp-rs** — a Rust-based Model Context Protocol server with enterprise WordPress integration.
 
-- 🌀 NURBS geometry processing with support for high-degree curves and curvature continuity  
-- 📐 STEP-compliant data structures for accurate export and interoperability  
-- 🔒 API safety enforced through trait design, semantic correctness, and explicit flag control  
-- 🧩 Crate-level abstraction separating core logic, numerical analysis, and geometric primitives  
-- 🧱 Responsibility-driven architecture with clear module boundaries and migration traceability  
+**Primary Projects:**
+• 🤖 **mcp-rs**: Production MCP server (Alpha) - 27 WordPress tools, enterprise security
+• 🌀 **RedRing2020**: CAD/CAM kernel with NURBS geometry processing and STEP compliance
 
----
+**Key Specializations:**
+• 🔒 Enterprise security architecture (SQL injection, XSS protection, audit logging)
+• 🦀 Async Rust systems with tokio runtime and JSON-RPC protocols
+• 🤖 AI agent integration through Model Context Protocol
+• 📐 Precision geometry processing with curvature continuity
+• 🧩 Production-grade crate architecture and responsibility-driven design
 
 ### 🧭 Philosophy
 
-> “Every field, every flag, every function — must serve clarity, correctness, and future-proofing.”
+> "Every field, every flag, every function — must serve clarity, correctness, and future-proofing."
 
-These principles guide every architectural decision in [RedRing2020](https://github.com/n-takatsu/RedRing2020), from trait design to crate separation.
+These principles guide every architectural decision in both [mcp-rs](https://github.com/n-takatsu/mcp-rs) and [RedRing2020](https://github.com/n-takatsu/RedRing2020), from security design to trait architecture.
 
-- Explicit over implicit  
-- Traceable architectural decisions  
-- Collaborative rigor and open-source transparency  
-- Internationalization as a first-class concern  
-- Migration sequencing with risk-aware validation  
-
----
+• Explicit over implicit
+• Traceable architectural decisions  
+• Collaborative rigor and open-source transparency
+• Internationalization as a first-class concern
+• Migration sequencing with risk-aware validation
 
 ### 📂 Featured Repositories
 
-| Repository | Description |
-|------------|-------------|
-| `RedRing2020` | 🧠 Main CAD/CAM kernel project — modular, safe, and future-proof |
-| `geom2d` / `geom3d` | 📐 Geometry primitives used across RedRing2020 with strict field access |
-| `constraint-tests` | 🧪 Validation suite for constraints and intersections within RedRing2020 |
-
----
+| Project | Description |
+|---------|-------------|
+| **mcp-rs** | 🤖 **Production MCP Server** — Rust-based AI agent integration with WordPress (Alpha) |
+| RedRing2020 | 🧠 CAD/CAM kernel project — modular, safe, and future-proof |
+| geom2d / geom3d | 📐 Geometry primitives with strict field access |
+| constraint-tests | 🧪 Validation suite for constraints and intersections |
 
 ### 🏆 GitHub Trophies
-
-[![Trophy](https://github-profile-trophy.vercel.app/?username=n-takatsu&theme=gruvbox)](https://github.com/ryo-ma/github-profile-trophy)
-
----
+[![trophy](https://github-profile-trophy.vercel.app/?username=n-takatsu&theme=tokyonight)](https://github.com/ryo-ma/github-profile-trophy)
 
 ### 📈 GitHub Stats
 
-![n-takatsu's GitHub stats](https://github-readme-stats.vercel.app/api?username=n-takatsu&show_icons=true&theme=tokyonight)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=n-takatsu&layout=compact&theme=tokyonight)
+![n-takatsu's GitHub stats](https://github-readme-stats.vercel.app/api?username=n-takatsu&show_icons=true&theme=tokyonight)
 
----
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=n-takatsu&layout=compact&theme=tokyonight)
 
 ### 🌐 Connect
 
-- 📫 Email: takatsu.noriyuki [at] gmail.com  
-- 🗾 Location: Tokyo, Japan  
-- 📝 Qiita: [ntakatsu2](https://qiita.com/ntakatsu2)  
-- 📘 Zenn: [ntakatsu](https://zenn.dev/ntakatsu)  
-- 🐦 X (Twitter): [@ntakatsu1979](https://x.com/ntakatsu1979)  
-- 🎮 Coming Soon: Hobby site for games & model kits — playful meets technical!
+• 📫 Email: takatsu.noriyuki [at] gmail.com
+• 🗾 Location: Tokyo, Japan
+• 📝 Qiita: [ntakatsu2](https://qiita.com/ntakatsu2)
+• 📘 Zenn: [ntakatsu](https://zenn.dev/ntakatsu)
+• 🐦 X (Twitter): [@ntakatsu1979](https://x.com/ntakatsu1979)
+• 🎮 Coming Soon: Hobby site for games & model kits — playful meets technical!
+
+---
+
+💡 **Open to Collaboration on:**
+- 🤖 AI agent integrations and MCP ecosystem development
+- 🔒 Enterprise WordPress security automation
+- 🦀 High-performance Rust system architecture
+- 📐 Precision geometry and CAD/CAM innovations
