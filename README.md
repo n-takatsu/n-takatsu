@@ -1,4 +1,4 @@
-# Hi, I'm Noriyuki Takatsu 👋
+# Hi, I'm n-takatsu 👋
 
 🤖 **MCP Server Architect** | 🧠 CAD/CAM Kernel Developer | 🦀 Rust Enthusiast | 🇯🇵 Tokyo, Japan
 
