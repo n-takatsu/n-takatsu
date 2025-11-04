@@ -6,7 +6,16 @@ Currently leading **mcp-rs** (production MCP server) and **RedRing2020** (CAD/CA
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=AI+Agent+Integration.+Enterprise+WordPress.+Production+MCP+Server.+Precision+Geometry.+Modular+Architecture.+Memory+Safety.)
 
-[![IDE: Visual Studio](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg)](https://visualstudio.microsoft.com/) [![Legacy Kernel Integration](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg)](https://isocpp.org/) [![Core Development](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg)](https://www.rust-lang.org/)
+<div align="center">
+
+![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![Tokio](https://img.shields.io/badge/tokio-463991.svg?style=for-the-badge&logo=rust&logoColor=white)
+![JSON](https://img.shields.io/badge/json--rpc-000000?style=for-the-badge&logo=json&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)
+![Model Context Protocol](https://img.shields.io/badge/MCP-Protocol-6B73FF?style=for-the-badge&logo=anthropic&logoColor=white)
+![Enterprise Security](https://img.shields.io/badge/Enterprise-Security-red?style=for-the-badge&logo=shield&logoColor=white)
+
+</div>
 
 ### 🚀 Current Development
 
