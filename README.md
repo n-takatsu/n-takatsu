@@ -52,7 +52,7 @@ Currently leading **mcp-rs** (production MCP server) and **RedRing2020** (CAD/CA
 
 > "Every field, every flag, every function — must serve clarity, correctness, and future-proofing."
 
-These principles guide every architectural decision in both [mcp-rs](https://github.com/n-takatsu/mcp-rs) and [RedRing2020](https://github.com/n-takatsu/RedRing2020), from security design to trait architecture.
+These principles guide every architectural decision in both [mcp-rs](https://github.com/n-takatsu/mcp-rs) and [RedRing](https://github.com/RedRing2020/RedRing), from security design to trait architecture.
 
 • Explicit over implicit
 • Traceable architectural decisions  
