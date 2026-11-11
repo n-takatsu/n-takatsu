@@ -56,7 +56,7 @@
 
 <div align="center">
 
-<img src="metrics/achievements.svg" alt="Achievements" />
+<img src="metrics/trophy.svg" alt="GitHub trophies" width="100%" />
 
 <img src="metrics/stats.svg" alt="GitHub stats" />
 

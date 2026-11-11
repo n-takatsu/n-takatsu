@@ -16,18 +16,6 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      # 🏆 Trophy replacement: achievements
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: metrics/achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          config_timezone: Asia/Tokyo
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_display: compact
-          plugin_achievements_limit: 0
-
       # 📈 Stats
       - uses: lowlighter/metrics@latest
         with:
@@ -50,6 +38,37 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_threshold: 2%
           plugin_languages_ignored: html, css, dockerfile, shell, makefile
+
+  trophy:
+    needs: metrics
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install Deno
+        run: |
+          curl -fsSL -o "$RUNNER_TEMP/deno.zip" https://github.com/denoland/deno/releases/download/v1.46.3/deno-x86_64-unknown-linux-gnu.zip
+          unzip -q -o "$RUNNER_TEMP/deno.zip" -d "$RUNNER_TEMP/bin"
+          echo "$RUNNER_TEMP/bin" >> "$GITHUB_PATH"
+
+      - name: Generate trophy
+        env:
+          GITHUB_TOKEN1: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          git clone -q https://github.com/ryo-ma/github-profile-trophy "$RUNNER_TEMP/trophy"
+          git -C "$RUNNER_TEMP/trophy" checkout -q 43736b50a82fca73c8df1c81abb40aa03519975c
+          deno run --allow-net --allow-env --allow-read --allow-write \
+            "$RUNNER_TEMP/trophy/render_svg.ts" n-takatsu "$GITHUB_WORKSPACE/metrics/trophy.svg" tokyonight
+
+      - name: Commit trophy
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics/trophy.svg
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Update metrics/trophy.svg [skip ci]"
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
 
   snake:
     runs-on: ubuntu-latest
