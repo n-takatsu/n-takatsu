@@ -21,8 +21,9 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="449.07878044714676" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="449.07878044714676" y="0" width="10.921219552853223" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="458.1369682963449" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="458.1369682963449" y="0" width="1.7574019605331257" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="459.894370256878" y="0" width="0.1056297431219927" height="8" fill="#701516"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -33,9 +34,15 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#012456" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#f1e05a" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
-                        PowerShell
+                        JavaScript
+                    </div>
+                    <div class="field center no-wrap language">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                            <path fill="#701516" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                        </svg>
+                        Ruby
                     </div>
                 </div>
             </section>
