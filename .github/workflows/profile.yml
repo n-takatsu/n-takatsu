@@ -1,0 +1,70 @@
+name: Profile metrics
+
+on:
+  schedule:
+    - cron: "17 */12 * * *"   # every 12 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      # 🏆 Trophy replacement: achievements
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          config_timezone: Asia/Tokyo
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_display: compact
+          plugin_achievements_secrets: yes
+          plugin_achievements_limit: 0
+
+      # 📈 Stats
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/stats.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories
+          config_timezone: Asia/Tokyo
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      # 🦀 Languages
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          config_timezone: Asia/Tokyo
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 2%
+          plugin_languages_ignored: html, css, dockerfile, shell, makefile
+
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: n-takatsu
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
