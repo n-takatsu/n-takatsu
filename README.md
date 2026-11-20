@@ -20,7 +20,7 @@
 
 ### 🤖 [mcp-rs](https://github.com/n-takatsu/mcp-rs) [![Release](https://img.shields.io/github/v/release/n-takatsu/mcp-rs?include_prereleases&label=release)](https://github.com/n-takatsu/mcp-rs/releases) — Model Context Protocol server in Rust
 
-- **v0.22.0** · 32 WordPress tools (posts, pages, media, categories/tags, settings, health check)
+- 41 WordPress tools (posts, pages, media, categories/tags, settings, health check)
 - STDIO / HTTP / WebSocket transports · API keys & OAuth 2.1 · per-caller tool limits · audit log
 - Built on `tokio` + `axum`, JSON-RPC 2.0, MIT / Apache-2.0
 
