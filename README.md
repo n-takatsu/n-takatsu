@@ -18,17 +18,17 @@
 
 ## 🚀 What I'm building
 
-### 🤖 [mcp-rs](https://github.com/n-takatsu/mcp-rs) — Model Context Protocol server in Rust [![Release](https://img.shields.io/github/v/release/n-takatsu/mcp-rs?include_prereleases&label=release)](https://github.com/n-takatsu/mcp-rs/releases)
+### 🤖 [mcp-rs](https://github.com/n-takatsu/mcp-rs) — Model Context Protocol server in Rust <a href="https://github.com/n-takatsu/mcp-rs/releases"><img src="https://img.shields.io/github/v/release/n-takatsu/mcp-rs?include_prereleases&label=release" alt="Release" align="absmiddle"></a>
 
 - 41 WordPress tools (posts, pages, media, categories/tags, settings, health check)
 - STDIO / HTTP / WebSocket transports · API keys & OAuth 2.1 · per-caller tool limits · audit log
 - Built on `tokio` + `axum`, JSON-RPC 2.0, MIT / Apache-2.0
 
-### 🧠 [RedRing](https://github.com/RedRing2020/RedRing) — CAD/CAM research platform in Rust + wgpu [![Release](https://img.shields.io/github/v/release/RedRing2020/RedRing?include_prereleases&label=release)](https://github.com/RedRing2020/RedRing/releases)
+### 🧠 [RedRing](https://github.com/RedRing2020/RedRing) — CAD/CAM research platform in Rust + wgpu <a href="https://github.com/RedRing2020/RedRing/releases"><img src="https://img.shields.io/github/v/release/RedRing2020/RedRing?include_prereleases&label=release" alt="Release" align="absmiddle"></a>
 
 - NURBS curves & surfaces, foundation geometry library, GPU rendering pipeline
-- STL import → 3-axis scanline toolpath (ball / flat end mills) → tri-dexel cutting simulation
-- Next: machining management (v0.2.0) → connecting moves & NC output (v0.3.0) → STEP/IGES
+- STL/STEP import → 3-axis scanline toolpath (ball / flat end mills) → tri-dexel cutting simulation
+- Next: machining management (v0.2.0) → connecting moves & NC output (v0.3.0) → IGES
 - 📖 Docs: [日本語](https://redring2020.github.io/RedRing/) / [English](https://redring2020.github.io/RedRing/en/) · 🌐 [redring.jp](https://redring.jp/)
 
 ### 🌿 [oriva](https://oriva.jp/) — hobby site *(in progress)*
