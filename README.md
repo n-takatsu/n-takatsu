@@ -27,7 +27,7 @@
 ### 🧠 [RedRing](https://github.com/RedRing2020/RedRing) — CAD/CAM research platform in Rust + wgpu [![Release](https://img.shields.io/github/v/release/RedRing2020/RedRing?include_prereleases&label=release)](https://github.com/RedRing2020/RedRing/releases)
 
 - NURBS curves & surfaces, foundation geometry library, GPU rendering pipeline
-- **v0.1.0 preview**: STL import → 3-axis scanline toolpath (ball / flat end mills) → tri-dexel cutting simulation
+- STL import → 3-axis scanline toolpath (ball / flat end mills) → tri-dexel cutting simulation
 - Next: machining management (v0.2.0) → connecting moves & NC output (v0.3.0) → STEP/IGES
 - 📖 Docs: [日本語](https://redring2020.github.io/RedRing/) / [English](https://redring2020.github.io/RedRing/en/) · 🌐 [redring.jp](https://redring.jp/)
 
