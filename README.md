@@ -18,18 +18,18 @@
 
 ## 🚀 What I'm building
 
-### 🧠 [RedRing](https://github.com/RedRing2020/RedRing) — CAD/CAM research platform in Rust + wgpu
+### 🤖 [mcp-rs](https://github.com/n-takatsu/mcp-rs) [![Release](https://img.shields.io/github/v/release/n-takatsu/mcp-rs?include_prereleases&label=release)](https://github.com/n-takatsu/mcp-rs/releases) — Model Context Protocol server in Rust
+
+- **v0.22.0** · 32 WordPress tools (posts, pages, media, categories/tags, settings, health check)
+- STDIO / HTTP / WebSocket transports · API keys & OAuth 2.1 · per-caller tool limits · audit log
+- Built on `tokio` + `axum`, JSON-RPC 2.0, MIT / Apache-2.0
+
+### 🧠 [RedRing](https://github.com/RedRing2020/RedRing) [![Release](https://img.shields.io/github/v/release/RedRing2020/RedRing?include_prereleases&label=release)](https://github.com/RedRing2020/RedRing/releases) — CAD/CAM research platform in Rust + wgpu
 
 - NURBS curves & surfaces, foundation geometry library, GPU rendering pipeline
 - **v0.1.0 preview**: STL import → 3-axis scanline toolpath (ball / flat end mills) → tri-dexel cutting simulation
 - Next: machining management (v0.2.0) → connecting moves & NC output (v0.3.0) → STEP/IGES
 - 📖 Docs: [日本語](https://redring2020.github.io/RedRing/) / [English](https://redring2020.github.io/RedRing/en/) · 🌐 [redring.jp](https://redring.jp/)
-
-### 🤖 [mcp-rs](https://github.com/n-takatsu/mcp-rs) — Model Context Protocol server in Rust
-
-- **v0.22.0** · 32 WordPress tools (posts, pages, media, categories/tags, settings, health check)
-- STDIO / HTTP / WebSocket transports · API keys & OAuth 2.1 · per-caller tool limits · audit log
-- Built on `tokio` + `axum`, JSON-RPC 2.0, MIT / Apache-2.0
 
 ### 🌿 [oriva](https://oriva.jp/) — hobby site *(in progress)*
 
