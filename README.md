@@ -18,13 +18,13 @@
 
 ## 🚀 What I'm building
 
-### 🤖 [mcp-rs](https://github.com/n-takatsu/mcp-rs) [![Release](https://img.shields.io/github/v/release/n-takatsu/mcp-rs?include_prereleases&label=release)](https://github.com/n-takatsu/mcp-rs/releases) — Model Context Protocol server in Rust
+### 🤖 [mcp-rs](https://github.com/n-takatsu/mcp-rs) — Model Context Protocol server in Rust [![Release](https://img.shields.io/github/v/release/n-takatsu/mcp-rs?include_prereleases&label=release)](https://github.com/n-takatsu/mcp-rs/releases)
 
 - 41 WordPress tools (posts, pages, media, categories/tags, settings, health check)
 - STDIO / HTTP / WebSocket transports · API keys & OAuth 2.1 · per-caller tool limits · audit log
 - Built on `tokio` + `axum`, JSON-RPC 2.0, MIT / Apache-2.0
 
-### 🧠 [RedRing](https://github.com/RedRing2020/RedRing) [![Release](https://img.shields.io/github/v/release/RedRing2020/RedRing?include_prereleases&label=release)](https://github.com/RedRing2020/RedRing/releases) — CAD/CAM research platform in Rust + wgpu
+### 🧠 [RedRing](https://github.com/RedRing2020/RedRing) — CAD/CAM research platform in Rust + wgpu [![Release](https://img.shields.io/github/v/release/RedRing2020/RedRing?include_prereleases&label=release)](https://github.com/RedRing2020/RedRing/releases)
 
 - NURBS curves & surfaces, foundation geometry library, GPU rendering pipeline
 - **v0.1.0 preview**: STL import → 3-axis scanline toolpath (ball / flat end mills) → tri-dexel cutting simulation
