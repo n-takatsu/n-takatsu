@@ -18,18 +18,29 @@
 
 ## 🚀 What I'm building
 
-### 🤖 [mcp-rs](https://github.com/n-takatsu/mcp-rs) — Model Context Protocol server in Rust <a href="https://github.com/n-takatsu/mcp-rs/releases"><img src="https://img.shields.io/github/v/release/n-takatsu/mcp-rs?include_prereleases&label=release" alt="Release" align="absmiddle"></a>
+### 🤖 mcp-rs — Model Context Protocol server in Rust
+[![mcp-rs](https://img.shields.io/github/v/release/n-takatsu/mcp-rs?include_prereleases&style=flat-square&logo=github&color=orange&label=mcp-rs)](https://github.com/n-takatsu/mcp-rs/releases)
+[![mcp-rs-actions](https://img.shields.io/github/actions/workflow/status/n-takatsu/mcp-rs/deploy.yml?style=flat-square)](https://github.com/n-takatsu/mcp-rs/actions)
+[![mcp-rs-license](https://img.shields.io/badge/license-MIT%20%2F%20Apache--2.0-blue?style=flat-square)](https://github.com/RedRing2020/RedRing/blob/HEAD/LICENSE)
+[![mcp-rs-last-commt](https://img.shields.io/github/last-commit/n-takatsu/mcp-rs?style=flat-square)](https://github.com/n-takatsu/mcp-rs/commits)
 
 - 41 WordPress tools (posts, pages, media, categories/tags, settings, health check)
 - STDIO / HTTP / WebSocket transports · API keys & OAuth 2.1 · per-caller tool limits · audit log
-- Built on `tokio` + `axum`, JSON-RPC 2.0, MIT / Apache-2.0
+- Built on `tokio` + `axum`, JSON-RPC 2.0
 
-### 🧠 [RedRing](https://github.com/RedRing2020/RedRing) — CAD/CAM research platform in Rust + wgpu <a href="https://github.com/RedRing2020/RedRing/releases"><img src="https://img.shields.io/github/v/release/RedRing2020/RedRing?include_prereleases&label=release" alt="Release" align="absmiddle"></a>
+### 🧠 RedRing — CAD/CAM research platform in Rust + wgpu
+[![RedRing](https://img.shields.io/github/v/release/RedRing2020/RedRing?include_prereleases&style=flat-square&logo=github&color=red&label=RedRing)](https://github.com/RedRing2020/RedRing/releases)
+[![RedRing-actions](https://img.shields.io/github/actions/workflow/status/RedRing2020/RedRing/main_ci_cd.yml?style=flat-square)](https://github.com/RedRing2020/RedRing/actions)
+[![RedRing-license](https://img.shields.io/badge/license-MIT%20%2F%20Apache--2.0-blue?style=flat-square)](https://github.com/RedRing2020/RedRing/blob/HEAD/LICENSE)
+[![RedRing-last-commt](https://img.shields.io/github/last-commit/RedRing2020/RedRing?style=flat-square)](https://github.com/RedRing2020/RedRing/commits)
 
 - NURBS curves & surfaces, foundation geometry library, GPU rendering pipeline
 - STL/STEP import → 3-axis scanline toolpath (ball / flat end mills) → tri-dexel cutting simulation
 - Next: machining management (v0.2.0) → connecting moves & NC output (v0.3.0) → IGES
-- 📖 Docs: [日本語](https://redring2020.github.io/RedRing/) / [English](https://redring2020.github.io/RedRing/en/) · 🌐 [redring.jp](https://redring.jp/)
+
+[![Docs](https://img.shields.io/badge/Docs-日本語-007ec6?style=flat-square&logo=mdbook&logoColor=white)](https://redring2020.github.io/RedRing/)
+[![Docs](https://img.shields.io/badge/Docs-English-007ec6?style=flat-square&logo=mdbook&logoColor=white)](https://redring2020.github.io/RedRing/en/)
+[![redring.jp](https://img.shields.io/badge/Website-redring.jp-red?style=flat-square)](https://redring.jp/)
 
 ### 🌿 [oriva](https://oriva.jp/) — hobby site *(in progress)*
 
