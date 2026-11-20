@@ -19,6 +19,7 @@
 ## 🚀 What I'm building
 
 ### 🤖 mcp-rs — Model Context Protocol server in Rust
+&nbsp;
 [![mcp-rs](https://img.shields.io/github/v/release/n-takatsu/mcp-rs?include_prereleases&style=flat-square&logo=github&color=orange&label=mcp-rs)](https://github.com/n-takatsu/mcp-rs/releases)
 [![mcp-rs-actions](https://img.shields.io/github/actions/workflow/status/n-takatsu/mcp-rs/deploy.yml?style=flat-square)](https://github.com/n-takatsu/mcp-rs/actions)
 [![mcp-rs-license](https://img.shields.io/badge/license-MIT%20%2F%20Apache--2.0-blue?style=flat-square)](https://github.com/RedRing2020/RedRing/blob/HEAD/LICENSE)
@@ -29,6 +30,7 @@
 - Built on `tokio` + `axum`, JSON-RPC 2.0
 
 ### 🧠 RedRing — CAD/CAM research platform in Rust + wgpu
+&nbsp;
 [![RedRing](https://img.shields.io/github/v/release/RedRing2020/RedRing?include_prereleases&style=flat-square&logo=github&color=red&label=RedRing)](https://github.com/RedRing2020/RedRing/releases)
 [![RedRing-actions](https://img.shields.io/github/actions/workflow/status/RedRing2020/RedRing/main_ci_cd.yml?style=flat-square)](https://github.com/RedRing2020/RedRing/actions)
 [![RedRing-license](https://img.shields.io/badge/license-MIT%20%2F%20Apache--2.0-blue?style=flat-square)](https://github.com/RedRing2020/RedRing/blob/HEAD/LICENSE)
@@ -38,6 +40,7 @@
 - STL/STEP import → 3-axis scanline toolpath (ball / flat end mills) → tri-dexel cutting simulation
 - Next: machining management (v0.2.0) → connecting moves & NC output (v0.3.0) → IGES
 
+&nbsp;&nbsp;&nbsp;
 [![Docs](https://img.shields.io/badge/Docs-日本語-007ec6?style=flat-square&logo=mdbook&logoColor=white)](https://redring2020.github.io/RedRing/)
 [![Docs](https://img.shields.io/badge/Docs-English-007ec6?style=flat-square&logo=mdbook&logoColor=white)](https://redring2020.github.io/RedRing/en/)
 [![redring.jp](https://img.shields.io/badge/Website-redring.jp-red?style=flat-square)](https://redring.jp/)
