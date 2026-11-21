@@ -29,7 +29,7 @@
 - STDIO / HTTP / WebSocket transports · API keys & OAuth 2.1 · per-caller tool limits · audit log
 - Built on `tokio` + `axum`, JSON-RPC 2.0
 
-### 🧠 RedRing — CAD/CAM research platform in Rust + wgpu
+### 🧠 [RedRing](https://redring.jp/) — CAD/CAM research platform in Rust + wgpu
 &nbsp;
 [![RedRing](https://img.shields.io/github/v/release/RedRing2020/RedRing?include_prereleases&style=flat-square&logo=github&color=red&label=RedRing)](https://github.com/RedRing2020/RedRing/releases)
 [![RedRing-actions](https://img.shields.io/github/actions/workflow/status/RedRing2020/RedRing/main_ci_cd.yml?style=flat-square)](https://github.com/RedRing2020/RedRing/actions)
@@ -39,11 +39,7 @@
 - NURBS curves & surfaces, foundation geometry library, GPU rendering pipeline
 - STL/STEP import → 3-axis scanline toolpath (ball / flat end mills) → tri-dexel cutting simulation
 - Next: machining management (v0.2.0) → connecting moves & NC output (v0.3.0) → IGES
-
-&nbsp;&nbsp;&nbsp;
-[![Docs](https://img.shields.io/badge/Docs-日本語-007ec6?style=flat-square&logo=mdbook&logoColor=white)](https://redring2020.github.io/RedRing/)
-[![Docs](https://img.shields.io/badge/Docs-English-007ec6?style=flat-square&logo=mdbook&logoColor=white)](https://redring2020.github.io/RedRing/en/)
-[![redring.jp](https://img.shields.io/badge/Website-redring.jp-red?style=flat-square)](https://redring.jp/)
+- 📖Docs: **[日本語](https://redring2020.github.io/RedRing/)** | **[English](https://redring2020.github.io/RedRing/en/)**
 
 ### 🌿 [oriva](https://oriva.jp/) — hobby site *(in progress)*
 
@@ -54,8 +50,8 @@
 ## 🛠️ Tech
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Tokio](https://img.shields.io/badge/Tokio-463991?style=for-the-badge&logoColor=white)
 ![wgpu](https://img.shields.io/badge/wgpu-1F425F?style=for-the-badge&logo=webgpu&logoColor=white)
-![Tokio](https://img.shields.io/badge/Tokio-463991?style=for-the-badge&logo=rust&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
