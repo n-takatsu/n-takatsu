@@ -10,7 +10,7 @@
 [![oriva](https://img.shields.io/badge/oriva-oriva.jp-2E7D32?style=flat-square)](https://oriva.jp/)
 [![Qiita](https://img.shields.io/badge/Qiita-ntakatsu2-55C500?style=flat-square&logo=qiita&logoColor=white)](https://qiita.com/ntakatsu2)
 [![Zenn](https://img.shields.io/badge/Zenn-ntakatsu-3EA8FF?style=flat-square&logo=zenn&logoColor=white)](https://zenn.dev/ntakatsu)
-[![X](https://img.shields.io/badge/X-@ntakatsu1979-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/ntakatsu1979)
+[![X](https://img.shields.io/badge/@ntakatsu1979-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/ntakatsu1979)
 
 </div>
 
